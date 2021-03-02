@@ -8,6 +8,6 @@
  - Navbar top --> Home / Search Button /  Contact /
  - Navbar on the left side with different categories ( Topics / Media / Learning)
  
- ##### Topics
-- A-Z like a linklist of the different categories 
-- 
+    ##### Topics
+     - A-Z like a linklist of the different categories 
+     - 
