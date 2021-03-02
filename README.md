@@ -16,7 +16,18 @@
   
   #### Color 
     - .darkblue --> color: #2726B8; 
-    - .lightblue --> color: #01B5E6; }
-    - .green --> color: #24C263; }
-    - .black --> color: #EFEFEF; }
-    - .white --> color: #000000; }
+    - .lightblue --> color: #01B5E6; 
+    - .green --> color: #24C263; 
+    - .black --> color: #EFEFEF; 
+    - .white --> color: #000000; 
+
+
+
+#### Breakpoints
+    - min-width 768px
+    - minw-width 1024px
+    - min-width 1400px
+
+
+
+### grid template
