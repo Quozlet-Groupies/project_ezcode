@@ -1,2 +1,2 @@
-# poject
+# project
 Our group project
