@@ -14,8 +14,8 @@
 
 ### Style
 
-.darkblue --> color: #2726B8; }
-.lightblue --> color: #01B5E6; }
-.green --> color: #24C263; }
-.black --> color: #EFEFEF; }
-.white --> color: #000000; }
+- .darkblue --> color: #2726B8; 
+- .lightblue --> color: #01B5E6; }
+- .green --> color: #24C263; }
+- .black --> color: #EFEFEF; }
+- .white --> color: #000000; }
