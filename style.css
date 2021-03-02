@@ -1,0 +1,35 @@
+:root {
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* COLOURS */
+.darkblue {
+    color: #2726B8;
+}
+
+.darkblue-bg {
+    background-color:  #2726B8;
+}
+
+.lightblue {
+    color: #01B5E6;
+}
+
+.lightblue-bg {
+    background-color: #01B5E6;
+}
+
+.green {
+    color: #24C263;
+}
+
+.green-bg {
+    background-color: #24C263;
+}
+
+

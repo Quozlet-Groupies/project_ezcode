@@ -1,0 +1,29 @@
+label {
+    background: #45f74b;
+    display: flex;
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    border: 5px solid blue;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+#id_css:checked ~ .container .css {
+    display: none;
+    
+
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -100vw;
+}
+
