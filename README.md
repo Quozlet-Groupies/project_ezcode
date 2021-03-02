@@ -5,9 +5,17 @@
  - make a page following the example of this site: https://quizlet.com/240278214/biological-psychology-diagram/
  
  ### Content
- - Navbar top --> Home / Search Button /  Contact /
- - Navbar on the left side with different categories ( Topics / Media / Learning)
+ - Navbar top --> Logo (Home) -- Game / Media / Ressources / Blog -- SearchBar
+ - Navbar on the left side with different categories ( only in Blog Section)
  
     ##### Topics
-     - A-Z like a linklist of the different categories 
      - 
+     - 
+
+### Style
+
+.darkblue --> color: #2726B8; }
+.lightblue --> color: #01B5E6; }
+.green --> color: #24C263; }
+.black --> color: #EFEFEF; }
+.white --> color: #000000; }
