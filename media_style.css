@@ -1,4 +1,6 @@
-
+.rocket{
+    color: greenyellow;
+}
 
 .rocket::after {
     content: ":\f135";
@@ -14,3 +16,4 @@
       
       font-size: 2rem;
   }
+ 
