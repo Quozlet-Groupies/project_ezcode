@@ -1,3 +1,46 @@
+.container {
+ display: grid;
+ grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 80px auto;
+    grid-template-areas: 
+    ". . . btn1 btn2 btn3 btn4 btn5 . ."
+    ". blog blog blog blog blog blog blog blog ."    ;
+
+}
+
+
+/* The buttons for selecting the topics */
+
+label[for=id_css] {
+    grid-area: btn1;
+    visibility: visible;
+}
+
+label[for=id_ui] {
+    grid-area: btn2;
+    visibility: visible;
+}
+
+label[for=id_flex] {
+    grid-area: btn3;
+    visibility: visible;
+}
+
+label[for=id_flex] {
+    grid-area: btn4;
+    visibility: visible;
+}
+
+label[for=id_posit] {
+    grid-area: btn5;
+    visibility: visible;
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -100vw;
+}
+
 label {
     background: #45f74b;
     display: flex;
@@ -14,16 +57,9 @@ label {
 }
 
 
-
-
-#id_css:checked ~ .container .css {
+#id_css:checked ~ .container_inner .css {
     display: none;
-    
-
 }
 
-.visually-hidden {
-    position: absolute;
-    left: -100vw;
-}
+
 
