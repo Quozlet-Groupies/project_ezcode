@@ -32,4 +32,54 @@
     background-color: #24C263;
 }
 
+/* INTRODUCTION - H1 + P */
+
+.text-intro {
+    width: 50%;
+}
+
+.introduction img {
+    width: 25rem;
+    height: 25rem;
+}
+
+.introduction p {
+    font-size: 1.2rem;
+}
+.ezcode {
+    color: #01B5E6;
+}
+
+.line {
+    width: 100%;
+    border-right: 3px solid rgba(151, 170, 195, 0.45);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.type {
+    animation: typewriter 4s steps(20) 1s 1 normal forwards, cursor 0.4s 16 normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 17ch;
+        border-right-color: transparent;
+    }
+
+}
+
+@keyframes cursor {
+    from {
+        border-right-color: rgba(1, 179, 228, 0.5);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
 
