@@ -31,9 +31,135 @@
 
 .green-bg {
     background-color: #24C263;
+    color: white;
 }
 
-/* FOOTER START */
+
+/* INTRODUCTION - H1 + P */
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h2::first-letter {
+    color: #01B5E6;
+}
+
+.text-intro {
+    width: 50%;
+}
+
+.introduction img {
+    width: 35rem;
+    height: 35rem;
+}
+
+.introduction p,
+.container p,
+.button {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.ezcode {
+    color: #01B5E6;
+}
+ /* Typewriting animation */
+.line {
+    border-right: 3px solid rgba(151, 170, 195, 0.45);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.type {
+    animation: typewriter 4s steps(18) 1s 1 normal forwards, cursor 0.4s 16 normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 17ch;
+        border-right-color: transparent;
+    }
+
+}
+
+@keyframes cursor {
+    from {
+        border-right-color: rgba(1, 179, 228, 0.5);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+/* CARDS */
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+	        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 5s both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+/* GET STARTED BUTTON  */
+.button {
+    transition: all 0.4s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: #01B5E6;
+}
+
+.card-item {
+  box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  margin-right: 4rem;
+  width: 200px;
+}
+
+/* BACK-TO-TOP */
+
+.link-main:hover {
+    color: #01B5E6;
+}
+/*  FOOTER START */
+
 
 .footer {
     font-size: 1.5rem;
@@ -43,7 +169,15 @@
     cursor: crosshair;
 }
 
+.w-100 a:hover {
+    background-color: snow;
+    
+}
 
+i:hover {
+    color: black;
+    transform: scale(1.5);
+}
 
 a i {
     padding-right: 5px;
