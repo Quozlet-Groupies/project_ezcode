@@ -52,17 +52,19 @@ label[for=id_grid] {
 }
 
 label {
-    background: #45f74b;
+    
     display: flex;
-    width: 130px;
+    width: 100px;
     height: 50px;
     border-radius: 30px;
-    border: 5px solid blue;
+    border: none;
     margin-left: 10px;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
     margin-bottom: 20px;
+    box-shadow: 3px 3px 5px #2726B8;
 
 }
 
@@ -72,11 +74,40 @@ label {
 }
 
 
-
+/* Changing the button and the Blog Content No. 1 */
 
 #id_css:checked ~ .container_inner .css {
     display: none;
 }
 
+#id_css:checked ~ label[for=id_css] {
+    box-shadow: inset 3px 3px 5px #2726B8;
+}
 
 
+
+#id_ui:checked ~ .container_inner .ui {
+    display: none;
+}
+
+#id_ui:checked ~ label[for=id_ui] {
+    box-shadow: inset 3px 3px 5px #2726B8;
+}
+
+
+#id_flex:checked ~ .container_inner .flex {
+    display: none;
+}
+
+#id_flex:checked ~ label[for=id_flex] {
+    box-shadow: inset 3px 3px 5px #2726B8;
+}
+
+
+#id_flex:checked ~ .container_inner .flex {
+    display: none;
+}
+
+#id_flex:checked ~ label[for=id_flex] {
+    box-shadow: inset 3px 3px 5px #2726B8;
+}
