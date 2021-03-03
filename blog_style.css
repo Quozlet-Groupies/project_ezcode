@@ -6,13 +6,15 @@
 }
 
 .container {
+
+margin-top: 50px;
  display: grid;
  grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 80px auto;
     grid-template-areas: 
     
-    ". . btn1 btn2 btn3 btn4 btn5 . . ."
-    ". blog blog blog blog blog blog blog blog ."    ;
+    ".  btn1 btn2 btn3 btn4 btn5 . . . ."
+    ". blog blog blog blog blog blog . . ."    ;
 
 }
 
@@ -20,7 +22,7 @@
 
 /* The buttons for selecting the topics */
 
-label[for=id_css] {
+label[for=id_webdev] {
     grid-area: btn1;
     visibility: visible;
 }
@@ -30,7 +32,7 @@ label[for=id_ui] {
     visibility: visible;
 }
 
-label[for=id_flex] {
+label[for=id_secu] {
     grid-area: btn3;
     visibility: visible;
 }
@@ -61,28 +63,33 @@ label {
     margin-left: 10px;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 20px;
-    box-shadow: 3px 3px 5px #2726B8;
+    box-shadow: inset 4px 4px 6px #2726B8;
 
 }
 
 .container_inner {
     margin-top: 50px;
     grid-area: blog;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
 }
 
 
 /* Changing the button and the Blog Content No. 1 */
 
-#id_css:checked ~ .container_inner .css {
+#id_webdev:checked ~ .container_inner .webdev {
     display: none;
 }
 
-#id_css:checked ~ label[for=id_css] {
-    box-shadow: inset 3px 3px 5px #2726B8;
+#id_webdev:checked ~ label[for=id_webdev] {
+    box-shadow:  4px 4px 6px #2726B8;
 }
+
 
 
 
@@ -91,23 +98,52 @@ label {
 }
 
 #id_ui:checked ~ label[for=id_ui] {
-    box-shadow: inset 3px 3px 5px #2726B8;
+    box-shadow:  3px 3px 5px #2726B8;
 }
 
 
-#id_flex:checked ~ .container_inner .flex {
+
+
+#id_secu:checked ~ .container_inner .secu {
     display: none;
 }
 
-#id_flex:checked ~ label[for=id_flex] {
-    box-shadow: inset 3px 3px 5px #2726B8;
+#id_secu:checked ~ label[for=id_secu] {
+    box-shadow:  3px 3px 5px #2726B8;
 }
 
 
-#id_flex:checked ~ .container_inner .flex {
+
+
+#id_posit:checked ~ .container_inner .posit {
     display: none;
 }
 
-#id_flex:checked ~ label[for=id_flex] {
-    box-shadow: inset 3px 3px 5px #2726B8;
+#id_posit:checked ~ label[for=id_posit] {
+    box-shadow:  3px 3px 5px #2726B8;
+}
+
+
+#id_grid:checked ~ .container_inner .grid {
+    display: none;
+}
+
+#id_grid:checked ~ label[for=id_grid] {
+    box-shadow:  3px 3px 5px #2726B8;
+}
+
+.container_inner {
+    width: 100%;
+}
+
+.blogarticle {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.blogarticle img {
+    height: 70px;
+    
 }
