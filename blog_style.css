@@ -56,8 +56,8 @@ label[for=id_grid] {
 label {
     
     display: flex;
-    width: 100px;
-    height: 50px;
+    width: 80px;
+    height: 30px;
     border-radius: 30px;
     border: none;
     margin-left: 10px;
@@ -81,6 +81,7 @@ label {
 
 
 /* Changing the button and the Blog Content No. 1 */
+
 
 #id_webdev:checked ~ .container_inner .webdev {
     display: none;
