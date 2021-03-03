@@ -16,4 +16,17 @@
       
       font-size: 2rem;
   }
- 
+  .myDIV{
+    position: relative;
+    top: 30px;
+  }
+ .myDIV:hover + .hide{
+    display: flex;
+    position: absolute;
+    
+    
+    
+ }
+ .hide {
+    display: none;
+ }
