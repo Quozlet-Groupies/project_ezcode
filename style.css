@@ -44,10 +44,12 @@
 
 .w-100 a:hover {
     background-color: snow;
+    
 }
 
 i:hover {
     color: black;
+    transform: scale(1.5);
 }
 
 a i {
