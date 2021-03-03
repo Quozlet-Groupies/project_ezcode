@@ -43,7 +43,13 @@
     cursor: crosshair;
 }
 
+.w-100 a:hover {
+    background-color: snow;
+}
 
+i:hover {
+    color: black;
+}
 
 a i {
     padding-right: 5px;
