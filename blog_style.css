@@ -1,24 +1,49 @@
 
-
-.headline {
-    width: 100%;
-    text-align: center;
+.lightyellow-bg {
+    background-color: rgb(233, 220, 106);
 }
+
+.darkyellow {
+    color: rgb(199, 183, 38);
+}
+
+.lightgreen-bg {
+    background-color: rgb(183, 255, 111);
+}
+
+.darkgreen {
+    color: rgb(134, 189, 80);
+}
+
+.lightpurple-bg {
+    background-color: rgb(175, 113, 255);
+}
+
+.lightred-bg {
+    background-color: rgb(255, 159, 178);
+}
+
+.lightgray-bg {
+    background-color: rgb(224, 223, 223);
+}
+
 
 .container {
 
 margin-top: 50px;
  display: grid;
  grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: 80px auto;
+    grid-template-rows:  80px 80px auto;
     grid-template-areas: 
-    
+    ". head head head head head . . . . "
     ".  btn1 btn2 btn3 btn4 btn5 . . . ."
     ". blog blog blog blog blog blog . . ."    ;
 
 }
 
-
+.headline {
+    grid-area: head;
+}
 
 /* The buttons for selecting the topics */
 
@@ -56,9 +81,10 @@ label[for=id_grid] {
 label {
     
     display: flex;
+   
     width: 80px;
     height: 30px;
-    border-radius: 30px;
+    border-radius: 5px;
     border: none;
     margin-left: 10px;
     justify-content: center;
@@ -66,9 +92,37 @@ label {
     font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 20px;
-    box-shadow: inset 4px 4px 6px #2726B8;
+    
 
 }
+
+#id_webdev ~ label[for=id_webdev] {
+    box-shadow: inset 4px 4px 6px #2726B8;
+    opacity: 0.8;
+}
+
+
+#id_ui ~ label[for=id_ui] {
+    box-shadow:  inset 3px 3px 5px rgb(199, 183, 38);
+    opacity: 0.8;
+
+}
+
+#id_secu ~ label[for=id_secu] {
+    box-shadow: inset 3px 3px 5px rgb(82, 61, 110);
+    opacity: 0.8;
+}
+
+#id_posit ~ label[for=id_posit] {
+    box-shadow: inset 3px 3px 5px rgb(134, 81, 91);
+    opacity: 0.8;
+}
+
+#id_grid ~ label[for=id_grid] {
+    box-shadow: inset 3px 3px 5px rgb(161, 161, 161);
+    opacity: 0.8;
+}
+
 
 .container_inner {
     margin-top: 50px;
@@ -85,13 +139,13 @@ label {
 
 #id_webdev:checked ~ .container_inner .webdev {
     display: none;
+   
 }
 
 #id_webdev:checked ~ label[for=id_webdev] {
     box-shadow:  4px 4px 6px #2726B8;
+    opacity: 0.7;
 }
-
-
 
 
 #id_ui:checked ~ .container_inner .ui {
@@ -99,7 +153,8 @@ label {
 }
 
 #id_ui:checked ~ label[for=id_ui] {
-    box-shadow:  3px 3px 5px #2726B8;
+    box-shadow:  3px 3px 5px rgb(199, 183, 38);
+    opacity: 0.7;
 }
 
 
@@ -110,7 +165,8 @@ label {
 }
 
 #id_secu:checked ~ label[for=id_secu] {
-    box-shadow:  3px 3px 5px #2726B8;
+    box-shadow:  3px 3px 5px rgb(82, 61, 110);
+    opacity: 0.7;
 }
 
 
@@ -121,7 +177,8 @@ label {
 }
 
 #id_posit:checked ~ label[for=id_posit] {
-    box-shadow:  3px 3px 5px #2726B8;
+    box-shadow:  3px 3px 5px rgb(134, 81, 91);
+    opacity: 0.7;
 }
 
 
@@ -130,7 +187,8 @@ label {
 }
 
 #id_grid:checked ~ label[for=id_grid] {
-    box-shadow:  3px 3px 5px #2726B8;
+    box-shadow:  3px 3px 5px rgb(161, 161, 161);
+    opacity: 0.7;
 }
 
 .container_inner {
@@ -140,11 +198,36 @@ label {
 .blogarticle {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-bottom: 20px;
+    padding: 15px;
     margin-top: 30px;
+    border-radius: 10px;
 }
 
 .blogarticle img {
     height: 70px;
     
+}
+
+.webdev {
+    border-left: 4px solid #01B5E6;
+    
+}
+
+.secu {
+    border-left: 4px solid rgb(175, 113, 255);
+}
+
+.ui {
+    border-left: 4px solid rgb(233, 220, 106);
+
+}
+
+.posit {
+    border-left: 4px solid rgb(255, 159, 178);
+
+}
+
+.grid {
+    border-left: 4px solid rgb(224, 223, 223);
+
 }
