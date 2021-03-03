@@ -1,0 +1,19 @@
+.rocket{
+    color: greenyellow;
+}
+
+.rocket::after {
+    content: ":\f135";
+    font-family: FontAwesome;
+    margin-left: 10px;
+  }
+  .rocket::before {
+    content: ":\f135";
+    font-family: FontAwesome;
+    margin-right: 10px;
+  }
+  .media-intro{
+      
+      font-size: 2rem;
+  }
+ 
