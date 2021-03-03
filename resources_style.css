@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: darkblue;
+    margin-bottom: 20px;
+    font-size: 4.5rem;
+    background-color: darkgray;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    background-color: darkgray;
+}
