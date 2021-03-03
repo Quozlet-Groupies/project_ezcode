@@ -14,6 +14,7 @@
 
 .darkblue-bg {
     background-color:  #2726B8;
+    color: white;
 }
 
 .lightblue {
@@ -32,4 +33,31 @@
     background-color: #24C263;
 }
 
+/* FOOTER START */
 
+.footer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+.w-100 a:hover {
+    background-color: snow;
+}
+
+i:hover {
+    color: black;
+}
+
+a i {
+    padding-right: 5px;
+}
+
+.fab {
+    
+    color: white;
+}
+
+/* FOOTER END */
