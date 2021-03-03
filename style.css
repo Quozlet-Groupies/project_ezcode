@@ -43,25 +43,30 @@ h2 {
     font-size: 3.5rem;
 }
 
+h2::first-letter {
+    color: #01B5E6;
+}
+
 .text-intro {
     width: 50%;
 }
 
 .introduction img {
-    width: 30rem;
-    height: 30rem;
+    width: 35rem;
+    height: 35rem;
 }
 
-.introduction p {
-    font-size: 1.2rem;
+.introduction p,
+.container p,
+.button {
+    font-size: 1.5rem;
     font-weight: 600;
 }
 .ezcode {
     color: #01B5E6;
 }
-
+ /* Typewriting animation */
 .line {
-    width: 100%;
     border-right: 3px solid rgba(151, 170, 195, 0.45);
     white-space: nowrap;
     overflow: hidden;
@@ -124,6 +129,8 @@ h2 {
     }
   }
 
+
+/* GET STARTED BUTTON  */
 .button {
     transition: all 0.4s ease-in-out;
 }
@@ -138,9 +145,7 @@ h2 {
   box-shadow: 
     12px 12px 16px 0 rgba(0, 0, 0, 0.25),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
-  
   display: flex;
-
   justify-content: center;
   margin-right: 4rem;
   width: 200px;
