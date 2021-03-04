@@ -4,65 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+    rel="stylesheet">
+    
+    
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="blog_style.css">
+    <script src="https://kit.fontawesome.com/91c6e5bcf7.js" crossorigin="anonymous"></script>
     <title>EZ Coding</title>
 </head>
 
 <body>
 
-  
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #2726b8; ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./eZcode.png" class=" hover-shadow" alt="logo"></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link fs-2 " aria-current="page" href="#">Flashcards</a>
+                    </li>
+                    <li class="nav-item fs-2 ">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+
+                    <li class="nav-item fs-2">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Media</a>
+                    </li>
+                    <li class="nav-item fs-2">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+                    </li>
+                </ul>
+                <form class="d-flex p-5">
+                    <input class="form-control me-2 fs-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success fs-2" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
   
   
   
     <main>
      
-      <div class="container">      
+        <h2 class="text-center pt-5 green shadow p-3 mb-5 bg-body rounded "> <i class="fas fa-binoculars iconleft darkblue"></i> Blog <i class="fas fa-binoculars iconright"></i></h2>
+   
+
+      <div class="container_content">      
        
         <div class="headline">
-            <h1>Welcome to <span class="ezcode">e<span style="color: #24C263;">Z</span>code</span>- Blog</h1>
+            <p>Get the latest news from tech and an inside view about the hottest it gossip. Lorem ipsum dolor, sit amet consectetur adipisicing elit. At optio recusandae odit distinctio architecto ea nam cumque nesciunt, animi, nobis tempora, aspernatur eum tempore harum fuga voluptatem veniam inventore. Nam. </p>
+            <p>Choose from our catgories to start your journey</p>
           </div>
       
+
+
         <input type="checkbox" id="id_webdev" class="visually-hidden" form="css" checked>
         <label for="id_webdev" class="lightblue-bg">Webdev</label>
 
         
         <input type="checkbox" id="id_ui" class="visually-hidden" form="ui" checked>
-        <label for="id_ui" class="lightyellow-bg">UI/UX Basics</label>
+        <label for="id_ui" class="lightblue-bg">UI/UX Basics</label>
 
         
         <input type="checkbox" id="id_secu" class="visually-hidden" form="secu" checked>
-        <label for="id_secu" class="lightpurple-bg">Security</label>
+        <label for="id_secu" class="lightblue-bg">Security</label>
 
         
-        <input type="checkbox" id="id_posit" class="visually-hidden" form="posit" checked>
-        <label for="id_posit" class="lightred-bg">Positioning</label>
+        <!-- <input type="checkbox" id="id_posit" class="visually-hidden" form="posit" checked>
+        <label for="id_posit" class="lightred-bg">Positioning</label> -->
 
         
         <input type="checkbox" id="id_grid" class="visually-hidden" form="grid" checked>
-        <label for="id_grid" class="lightgray-bg">Grid</label>
+        <label for="id_grid" class="lightblue-bg">Grid</label>
 
    
     
         <div class="container_inner">
             <section class="blogarticle secu">
+                <div class="blog_head">
                 <h3>An Absurdly Basic Bug Let Anyone Grab All of Parler's Data</h3>
+                <h4>#Security</h4>
+                </div>
                 <img src="./ressources/pic/parler.webp" alt="parler symbol">
                 <p>The social media platform Parler rose to prominence as an outlet for free speech. In practice, it became a haven for disinformation, hate speech, and calls for violence, the sort of content generally blocked on more mainstream platforms like Twitter and Facebook. It's fair to say, though, that by “free speech” the site's creators didn't mean that anyone could freely download every message, photo, and video posted to the site, including sensitive geolocation data. But a very basic bug in Parler's architecture nonetheless seems to have made it all too easy to do just that.</p>
-                <a href="https://www.wired.com/story/parler-hack-data-public-posts-images-video/">weiterlesen</a>
-            </section>    
+                <p>    
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nobis architecto alias? Esse, similique ipsam. Praesentium voluptatibus pariatur optio iste quos eveniet sit, vitae officia! Modi laboriosam ab aperiam voluptatum?
+                Eveniet et odio quos similique cumque perferendis ipsum necessitatibus incidunt sapiente recusandae, labore blanditiis sequi, iure accusantium ipsam aperiam quas debitis. Aut labore ab illum accusamus sed distinctio molestiae natus!
+                Incidunt, praesentium dolorum! Iusto labore numquam expedita consectetur corporis, ullam facere vero quaerat commodi dignissimos ea incidunt minus voluptate sapiente ad harum, natus architecto. Eos maxime distinctio officia hic similique?
+                Architecto eos ab quis molestiae, dolore omnis distinctio atque quam nam labore inventore perspiciatis reprehenderit accusamus suscipit dolorum magnam nostrum recusandae? Sapiente iure eos reprehenderit sunt tenetur ipsa, soluta enim?
+                Odio sapiente accusamus corrupti earum deleniti, ullam natus accusantium consequuntur, porro animi quaerat explicabo alias ipsa atque, quidem asperiores ut dignissimos. Dolor porro et voluptatum ex iste! Vitae, nisi veniam.
+                Amet, facere iusto eum modi facilis voluptate laboriosam quasi culpa mollitia necessitatibus asperiores nisi obcaecati cum vel commodi nam suscipit odit incidunt laudantium sit veniam sequi sunt ut. Amet, est?
+                Ratione sunt maiores laborum nostrum quia commodi laudantium dolores praesentium cumque vero, sapiente distinctio? Corporis commodi ex pariatur tempore aspernatur harum modi voluptatibus labore nisi perspiciatis eum incidunt, dignissimos quae.
+                Provident magnam id sed amet temporibus error iste aliquid, officiis adipisci sequi necessitatibus, laborum fugit soluta nihil voluptatibus porro quis m numquam libero laudantium quis fuga cumque sed fugiat doloremque consectetur quia, incidunt odio! Nulla, qui enim? </p>
+
+                <div class="line"></div>    
+                <div class="blog_foot green">
+                        <a href="https://www.wired.com/story/parler-hack-data-public-posts-images-video/">  Show me the full article  <i class="fas fa-anchor"></i></a>
+                        <a href="#">Share <i class="fas fa-share-alt"></i></a>
+                        <a href="#">Back to the top <i class="fas fa-arrow-alt-circle-left"></i></a>
+                    </div>
+
+               </section>    
    
             <section class="blogarticle ui">
-                <h3>Best design 🎨 resources websites every developer 💻 should bookmark🔖</h3>
+            
+                <div class="blog_head">
+                    <h3>Best design 🎨 resources websites every developer 💻 should bookmark</h3>
+                    <h4>#UI_UX</h4>
+                    </div>
+            
+              
                 <img src="./ressources/pic/ui_devto.png" alt="Logo dev.to">
                 <p>Are you looking for the best design resources websites? Well, then this collection is something every developer should bookmark, as it consists of the best resources that can help you to develop an amazing eye-catchy and visually enriched project.
 
-                    Here you'll find the best websites and resources with modern UI components in different formats such as PSD, Sketch, Figma, Icons, and Illustrations, etc. They are great for ideas for web components/UI.</p>
-                <a href="https://dev.to/theme_selection/best-design-resources-websites-every-developer-should-bookmark-1p5d">weiterlesen</a>
-            </section> 
+                    Here you'll find the best websites and resources with modern UI components in different formats such as PSD, Sketch, Figma, Icons, and Illustrations, etc. They are great for ideas for web components/UI. 
+                    
+                    </p><p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem natus culpa, iste placeat quis autem delectus nemo quae. Error esse aliquam optio autem debitis amet impedit similique sit eum recusandae?
+                    Harum quia magnam dolorum architecto. Nulla dolore doloribus eos, corporis, numquam ullam enim magni dolorem, reprehenderit iusto minus? Magni delectus deserunt repudiandae architecto esse dolor fugit dolorum vitae eius ipsam?
+                    Blanditiis impedit ab cupiditate, similique illo sit eos unde esse molestias veritatis maxime non itaque quis reiciendis porro quae sapiente! Officiis esse aut tempore reprehenderit atque? Dolorum a molestiae nobis.
+                    Odit iure minima maxime unde in, numquam eius repellat esse distinctio reprehenderit rerum facere autem, praesentium molestiae aliquam nisi rem, facilis quasi id! Dolorum iste corrupti, expedita error numquam minus?
+                    Unde iusto maxime perspiciatis est minima ducimus eveniet atque, quos pariatur dicta corporis temporibus porro numquam animi saepe voluptatum, rem dolore mollitia asperiores aperiam odio aspernatur incidunt eaque quis facilis accusantium commodi excepturi voluptatum? Dolore ex dolorem non.
+                    Quaerat, odit est labore ex tempora repudiandae facilis dolorem doloremque enim maiores? Amet quasi veritatis fuga hic minima consectetur iusto, eaque blanditiis asperiores reiciendis nemo, cupiditate molestias illum aliquid velit?
+                    Nesciunt sit iure ad vitae, dolor reiciendis dignissimos sint sequi neque recusandae tenetur laborum cumque perspiciatis voluptate autem odit nemo reprehenderit assumenda esse odio, exercitationem soluta. Excepturi deserunt exercitationem tempora! </p>
+
+
+                    <div class="line"></div>    
+                    <div class="blog_foot green">
+                            <a href="https://dev.to/theme_selection/best-design-resources-websites-every-developer-should-bookmark-1p5d">  Show me the full article  <i class="fas fa-anchor"></i></a>
+                            <a href="#">Share <i class="fas fa-share-alt"></i></a>
+                            <a href="#">Back to the top <i class="fas fa-arrow-alt-circle-left"></i></a>
+                        </div>
+
+                </section> 
             
             <section class="blogarticle secu">
-                <h3>Biggest Data Breaches of 2020 – and What Developers Should Learn From Them</h3>
+               
+                <div class="blog_head">
+                    <h3>Biggest Data Breaches of 2020 – and What Developers Should Learn From Them</h3>
+                    <h4>#Security</h4>
+                    </div>
+                           
+                
                 <img src="./ressources/pic/secu.jpg" alt="Ein Bild">
                 <p>2020 was not a good year for hacks, data breaches, and other cyber-attacks. As far as those things go, it was among the worst years on record.
 
@@ -71,29 +162,58 @@
                     But despite all of the problems, some of 2020's hacks can yield valuable lessons for programmers and software engineers to help them to harden their products against future attacks.
                     
                     To help them do that, here's a rundown of the biggest hacks of 2020 and what programmers can – and should – learn from them.</p>
-                <a href="https://www.freecodecamp.org/news/biggest-data-breaches-lessons-learned/">weiterlesen</a>
-            </section> 
-
-            <section class="blogarticle posit">
-                <h3>Artikel 4</h3>
-                <img src="#" alt="Ein Bild">
-                <p>Text</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error rerum esse dicta? Dolor similique placeat quos tempore nihil? Eos cum nulla, earum id voluptates totam voluptatibus nihil ad maiores, dolor culpa at nam beatae omnis quos dolores consequuntur, animi laboriosam facilis molestias quam vel minus modi. Ullam ducimus fuga atque accusamus cupiditate dolores minus voluptatem consequatur modi hic ipsum maxime autem fugiat reprehenderit at est non alias qui, consectetur magni nihil facere iure quisquam. Vitae, eos vero tenetur perferendis impedit incidunt consequatur mollitia illum odio dolorum sit tempora qui perspiciatis nobis veniam fugiat sint ratione earum doloremque sed id quo consequuntur! Blanditiis molestias voluptatem dolorum commodi mollitia molestiae sint, dicta iste quam iusto in maxime doloribus praesentium quae perferendis! Consequuntur unde voluptatem aspernatur non tenetur excepturi veniam. Iusto porro beatae quod, quam dicta reiciendis ex itaque. Alias ex quidem porro dignissimos magnam. Debitis officiis minus maiores, natus enim dolore animi, dolorem asperiores quasi praesentium dolores neque similique, reiciendis eum rerum cum? Itaque aliquid esse iusto. Rerum unde odio earum voluptatibus dolores at totam deserunt eius ea, officiis pariatur! Nulla dolorum quaerat impedit optio, sunt, id dolore distinctio modi voluptatum molestias in voluptas quod magni esse quis, totam doloribus deserunt maiores ullam ab odio aliquam ipsa quos. Deleniti, ab! Laborum dolorum at repellendus dignissimos velit quasi perspiciatis. Deserunt accusamus alias maiores obcaecati enim magni corrupti aperiam minus impedit facilis itaque voluptates perspiciatis ex officiis animi pariatur repudiandae possimus sequi sapiente beatae, natus numquam libero quo at? Maiores dolor, sed reiciendis illum nesciunt voluptatum velit minima voluptates ullam vitae quae nemo eveniet libero odit at nisi minus! At, officia aspernatur deserunt voluptates, temporibus, rerum cumque eaque autem labore veritatis illo maxime maiores repellat exercitationem ex ipsum! Officiis at officia provident dignissimos eius repellat ad et, nulla sint doloribus, excepturi quia maxime nisi.</p>
+                <a href=>weiterlesen</a>
+          
+                <div class="line"></div>    
+                <div class="blog_foot green">
+                        <a href="https://www.freecodecamp.org/news/biggest-data-breaches-lessons-learned/">  Show me the full article  <i class="fas fa-anchor"></i></a>
+                        <a href="#">Share <i class="fas fa-share-alt"></i></a>
+                        <a href="#">Back to the top <i class="fas fa-arrow-alt-circle-left"></i></a>
+                    </div>
+          
+          
+          
             </section> 
 
 
             <section class="blogarticle grid">
-                <h3>Learn CSS Grid by Building 5 Layouts in 17 minutes</h3>
+               
+                <div class="blog_head">
+                    <h3>Learn CSS Grid by Building 5 Layouts in 17 minutes</h3>
+                    <h4>#Grid</h4>
+                    </div>
+
+                       
+               
+               
                 <img src="./ressources/pic/Grid1.jpg" alt="Ein Bild">
                 <p>CSS Grid is a tool you can use to help create layouts for your website. It's especially useful if you need to think about the position, layers, or sizes of different elements.
 
                     CSS Grid is complicated and there are many things to learn. But the good news is that you don't need to know everything all at once.
                     
                     In this tutorial, we will build 5 different layouts (which are explained as five separate tasks below) with CSS Grid. At the end of the tutorial, you will be ready to use CSS Grid in your next projects.</p>
-                    <a href="https://www.freecodecamp.org/news/learn-css-grid-by-building-5-layouts/">weiterlesen</a>
-            </section> 
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod porro cumque iste dolore vitae, sunt unde id et, quasi cum voluptatem dicta fuga vero est quidem? Reiciendis blanditiis dolores explicabo nemo, alias doloribus cumque enim voluptatibus necessitatibus sapiente, rerum aliquid exercitationem maiores laborum saepe molestias porro repellat voluptate inventore et labore. Obcaecati harum tempora commodi. Saepe provident ea, dolorum voluptas veritatis, minus placeat, deserunt alias recusandae aspernatur blanditiis necessitatibus ad vero hic qui numquam harum! Dolores molestias ad ipsam expedita, similique non eum, modi architecto reprehenderit, quisquam dolore! Exercitationem, explicabo. Sapiente eius magnam sed beatae incidunt, quaerat reprehenderit ducimus iusto fugiat, tempore harum quod officia! Nostrum neque, at, nemo dolores cumque tempore enim iure sunt nulla corporis minus quam inventore quis alias quia laborum! Possimus at id ratione veritatis? Architecto excepturi sint quae recusandae praesentium tempora dignissimos ducimus impedit quo fugiat. Ut consequatur dolor, ducimus sit sed perspiciatis. Rem eius dolor sapiente neque minima nemo reiciendis dolores voluptas eligendi, temporibus unde vero autem nostrum beatae recusandae cupiditate natus, facere vel numquam aperiam! Eos ad eaque nobis amet, porro assumenda repudiandae quae quidem deleniti. Suscipit nisi, dolor, cupiditate, voluptate totam ipsam eos cumque porro voluptatibus eum temporibus tempora rerum molestiae. Labore!</p>
+                    
+                    
+                    <div class="line"></div>    
+                    <div class="blog_foot green">
+                            <a href="https://www.freecodecamp.org/news/learn-css-grid-by-building-5-layouts/">  Show me the full article  <i class="fas fa-anchor"></i></a>
+                            <a href="#">Share <i class="fas fa-share-alt"></i></a>
+                            <a href="#">Back to the top <i class="fas fa-arrow-alt-circle-left"></i></a>
+                        </div>
+                    
+                   </section> 
 
             <section class="blogarticle webdev">
-                <h3>How to Stay Productive All Day – Coding and Scheduling Tips for Programmers</h3>
+                
+                <div class="blog_head">
+                    <h3>How to Stay Productive All Day – Coding and Scheduling Tips for Programmers</h3>
+                    <h4>#Webdev</h4>
+                    </div>
+
+                
                 <img src="./ressources/pic/productiv.jpeg" alt="symbol photo for being productiv">
                 <p>I've been coding wrong my whole life.
 
@@ -108,19 +228,41 @@
                     My approach to work.
                     
                     After 62+ self-development books, dozens of articles and studies about productivity, and my trials and errors, I have created a productivity system that helps me to code, write, create, and live at my maximum capabilities without procrastination, tiredness, and brain fog.</p>
-                    <a href="https://www.freecodecamp.org/news/how-to-stay-productive-all-day-coding-and-scheduling-tips-for-programmers/">weiterlesen</a>
+
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate perspiciatis cumque provident, iste reiciendis facere dolor praesentium vel tenetur rem consequatur nulla natus cum corrupti illum recusandae explicabo qui dolore! Libero inventore saepe esse adipisci vero, maxime tenetur quod deserunt maiores laboriosam minus rem mollitia sit est nesciunt blanditiis illo et? Ipsum, ullam. Est aspernatur illum culpa reiciendis a expedita quod, repudiandae et nisi vitae. Exercitationem, aliquid. Ea iure exercitationem quae earum tempora eius mollitia doloribus pariatur nihil perspiciatis neque beatae praesentium in sapiente aliquid consequuntur adipisci, esse excepturi, officiis laborum fugit id eaque non. Deserunt nam ut quaerat eum. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A libero aliquam illo et, amet eius deleniti reiciendis incidunt iste eos doloribus. Error explicabo perferendis qui repudiandae sint, iure recusandae debitis repellat quasi sit. Quia sequi culpa repellat, possimus voluptatibus, quod modi nesciunt consequuntur cumque error dolorum accusantium? Eum et vero nihil officiis, quas facilis. Amet est a impedit earum sapiente laboriosam in esse, unde, tenetur dolorem, exercitationem porro iste asperiores deleniti provident rem nesciunt maxime assumenda veritatis quae ipsa voluptas voluptates! Culpa, ut! Laborum itaque fugiat velit at fuga pariatur possimus corporis ut, quibusdam hic eum libero aperiam id ex optio nam reprehenderit corrupti? Alias natus doloribus at quaerat nulla consequuntur! Excepturi ut fugit, provident ea similique culpa veniam libero minima recusandae numquam, harum expedita mollitia! Enim reprehenderit nisi deleniti aspernatur iste alias consectetur perspiciatis quas, voluptatibus fugiat adipisci maxime? Natus, perspiciatis totam. Aliquid non corporis quos iusto, tempore, suscipit ipsa cupiditate, inventore aliquam reiciendis neque aperiam accusantium voluptas quis vel facere dolore voluptates minima. Possimus, fugit doloremque ad dolorum consequuntur magni minus, amet obcaecati numquam aliquam natus aut nihil consectetur laudantium? Necessitatibus consequuntur libero voluptas nam ducimus maxime obcaecati tempora quam, a dolores quisquam similique quia atque reiciendis iure.
+                    </p>
+
+                    <div class="line"></div>    
+                    <div class="blog_foot green">
+                            <a href="https://www.freecodecamp.org/news/how-to-stay-productive-all-day-coding-and-scheduling-tips-for-programmers/">  Show me the full article  <i class="fas fa-anchor"></i></a>
+                            <a href="#">Share <i class="fas fa-share-alt"></i></a>
+                            <a href="#">Back to the top <i class="fas fa-arrow-alt-circle-left"></i></a>
+                        </div>
+
                 </section> 
 
 
                 <section class="blogarticle webdev">
-                    <h3>How to Build a Solid To-Do App with React</h3>
+                    <div class="blog_head">
+                        <h3>How to Build a Solid To-Do App with React</h3>
+                        <h4>#Webdev</h4>
+                     </div>
                     <img src="./ressources/pic/webdev2.jpeg" alt="symbol photo for being productiv">
                     <p>In this tutorial you will learn how to create a basic Solid to-do app. But what is Solid – not to be confused with SOLID? Well, it's a set of conventions and tools used to build decentralized apps.
-
-                        So what do I mean by decentralized? Currently, all our data is centralized in a few web platforms: Facebook, Google, and others. This has various consequences for privacy that we're all aware of, but it also endangers the principle of universality of the web: the web must be accessible to everyone.
-                        
-                        Let me illustrate this with an example: if my German teacher decides to create a Facebook group to share class materials, I need to have a Facebook account to access it. Likewise, if the teacher decides to quit Facebook, she needs to move the students to another app along with the data. </p>
-                        <a href="https://www.freecodecamp.org/news/how-to-stay-productive-all-day-coding-and-scheduling-tips-for-programmers/">weiterlesen</a>
+                    So what do I mean by decentralized? Currently, all our data is centralized in a few web platforms: Facebook, Google, and others. This has various consequences for privacy that we're all aware of, but it also endangers the principle of universality of the web: the web must be accessible to everyone.</p>
+                    
+                    <p>Let me illustrate this with an example: if my German teacher decides to create a Facebook group to share class materials, I need to have a Facebook account to access it. Likewise, if the teacher decides to quit Facebook, she needs to move the students to another app along with the data. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ut voluptatibus illum, soluta laboriosam molestiae quae necessitatibus culpa eos, vero maiores nobis nesciunt fugiat sunt voluptatem modi odio consequatur in suscipit! Tempora aspernatur praesentium dolore, ipsam cum sed earum quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia totam molestiae delectus doloremque. Voluptatem cupiditate fuga ad quae, labore iste eligendi voluptates eius maxime minus esse voluptate facilis iusto natus magnam commodi incidunt? Amet fuga reiciendis atque velit labore esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi nesciunt, perspiciatis, molestias earum sit possimus minima voluptate, eos non deserunt aspernatur quo. Voluptatum fugiat magni delectus omnis veniam, exercitationem vel hic, sint maiores possimus quibusdam distinctio inventore. Corporis, inventore rem? </p>
+                    
+                     
+                    <div class="line"></div>    
+                    <div class="blog_foot green">
+                            <a href="https://www.freecodecamp.org/news/how-to-stay-productive-all-day-coding-and-scheduling-tips-for-programmers/">  Show me the full article  <i class="fas fa-anchor"></i></a>
+                            <a href="#">Share <i class="fas fa-share-alt"></i></a>
+                            <a href="#">Back to the top <i class="fas fa-arrow-alt-circle-left"></i></a>
+                        </div>
+              
                     </section> 
     
 
@@ -128,5 +270,29 @@
          </div>
       </div>
     </main>
+
+    <!-- FOOTER -->
+
+
+  <footer class="w-100 sticky-bottom">
+    
+
+    <div class="text-center p-3 w-100" style="background-color: #2726b8;">
+      © 2021 Copyright: 
+      <a class="text-dark footer" href="https://github.com/" target="_blank"><i class="fab fa-github fs-2"></i>GITHUB</a>
+      <a class="text-dark footer" href="https://twitter.com/?lang=de" target="_blank"><i class="fab fa-twitter fs-2"></i>TWITTER</a>
+      <a class="text-dark footer" href="https://codepen.io/" target="_blank"><i class="fab fa-codepen fs-2"></i>CODEPEN</a>
+      <a class="text-dark footer" href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin fs-2"></i>LINKEDIN</a>
+      
+
+
+    </div>
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
 </body>
 </html>
