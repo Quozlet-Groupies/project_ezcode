@@ -34,13 +34,13 @@ embed {
     
 }
 
-/* @media (min-width: 768px) {
+@media (max-width: 768px) {
     embed {
-        width: 100%;
+        width: 90%;
         height: 900px;
-        margin-left: 0;
+        margin-left: 5%;
     }
-} */
+}
 
 
 /* @media (min-width: 1024px) {
