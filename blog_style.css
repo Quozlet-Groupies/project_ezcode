@@ -303,6 +303,7 @@ label:hover {
     min-height: 50px;
     height: auto;
     margin-bottom: 20px;
+    border-top-left-radius: 10px;
 }
 
 .blog_head h3 {
