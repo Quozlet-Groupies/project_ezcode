@@ -1,6 +1,4 @@
-.rocket{
-    color: greenyellow;
-}
+
 
 .rocket::after {
     content: ":\f135";
@@ -27,6 +25,10 @@
     
     
  }
+ .btn-outline-success {
+  color: #24C263;
+  border-color:#24C263;
+}
  .hide {
     display: none;
  }
