@@ -1,4 +1,10 @@
+body {
+    background-color: #24C263;
+}
+
 h1 {
+    
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
     text-align: center;
     padding: 20px;
     color: #2726B8;
@@ -8,13 +14,22 @@ h1 {
 }
 
 h2 {
+    
     margin-top: 20px;
     text-align: center;
     background-color: #01B5E6;
 }
 
+h3 {
+    text-shadow: 1px 1px 2px #000000;
+}
+
 
 embed {
-    padding: 20px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    border-radius: 15px;
+    /* padding: 20px; */
     margin-left:25%;
+    margin-top: 25px;
+    
 }
