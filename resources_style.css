@@ -1,14 +1,52 @@
+body {
+    background-color: #24C263;
+}
+
 h1 {
+    
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
     text-align: center;
     padding: 20px;
-    color: darkblue;
+    color: #2726B8;
     margin-bottom: 20px;
     font-size: 4.5rem;
-    background-color: darkgray;
+    background-color: #01B5E6;
 }
 
 h2 {
+    
     margin-top: 20px;
     text-align: center;
-    background-color: darkgray;
+    background-color: #01B5E6;
 }
+
+h3 {
+    text-shadow: 1px 1px 2px #000000;
+}
+
+
+embed {
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    border-radius: 15px;
+    /* padding: 20px; */
+    margin-left:25%;
+    margin-top: 25px;
+    
+}
+
+@media (max-width: 768px) {
+    embed {
+        width: 90%;
+        height: 900px;
+        margin-left: 5%;
+    }
+}
+
+
+/* @media (min-width: 1024px) {
+    embed {
+        width: 80%;
+        height: 700px;
+        margin-left: 10%;
+    }
+} */
