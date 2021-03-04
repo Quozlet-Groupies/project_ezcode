@@ -1,6 +1,4 @@
-.rocket{
-    color: greenyellow;
-}
+
 
 .rocket::after {
     content: ":\f135";
@@ -16,4 +14,21 @@
       
       font-size: 2rem;
   }
- 
+  .myDIV{
+    position: relative;
+    top: 30px;
+  }
+ .myDIV:hover + .hide{
+    display: flex;
+    position: absolute;
+    
+    
+    
+ }
+ .btn-outline-success {
+  color: #24C263;
+  border-color:#24C263;
+}
+ .hide {
+    display: none;
+ }
