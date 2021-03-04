@@ -191,7 +191,7 @@ label:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;   
-    min-height: 11vh; 
+   
 }
 
 
@@ -356,6 +356,10 @@ label:hover {
 }
 
 
+footer {
+    position: absolute;
+    bottom: 0;
+}
 
 /* .webdev {
     border-left: 4px solid #01B5E6;
