@@ -357,7 +357,8 @@ label:hover {
 
 
 footer {
-
+    postion: relative;
+    bottom: 0;
 }
 
 /* .webdev {
